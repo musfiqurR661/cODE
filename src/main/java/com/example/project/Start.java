@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Start extends Application {
-
+// first check
     @Override
     public void start(Stage stage) throws Exception {
        Parent root= FXMLLoader.load(getClass().getResource("LogInPage.fxml"));
@@ -16,6 +16,7 @@ public class Start extends Application {
        stage.show();
     }
 //djciuawf
+    //hgsdhg
     public static void main(String[] args) {
         launch(args);
     }
