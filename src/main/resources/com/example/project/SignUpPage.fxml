@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.SignUpPageController">
+   <children>
+      <AnchorPane layoutX="500.0" prefHeight="600.0" prefWidth="400.0">
+         <children>
+            <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="71.0" layoutY="86.0">
+               <image>
+                  <Image url="@../../../pcLogo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="600.0" prefWidth="500.0">
+         <children>
+            <AnchorPane layoutY="60.0" prefHeight="190.0" prefWidth="450.0">
+               <children>
+                  <Label layoutX="5.0" layoutY="40.0" prefHeight="30.0" prefWidth="100.0" text="Email" />
+                  <Label layoutX="5.0" layoutY="120.0" prefHeight="30.0" prefWidth="100.0" text="Password" />
+                  <TextField fx:id="emailbox" layoutX="105.0" layoutY="40.0" opacity="0.3" prefHeight="30.0" prefWidth="300.0" />
+                  <Label layoutX="5.0" layoutY="160.0" prefHeight="30.0" prefWidth="100.0" text="Confirm Password" />
+                  <PasswordField fx:id="passwordbox" layoutX="105.0" layoutY="120.0" opacity="0.3" prefHeight="30.0" prefWidth="300.0" />
+                  <PasswordField fx:id="cpasswordbox" layoutX="105.0" layoutY="160.0" opacity="0.3" prefHeight="30.0" prefWidth="300.0" />
+                  <Label layoutX="5.0" layoutY="80.0" prefHeight="30.0" prefWidth="100.0" text="Username" />
+                  <TextField fx:id="usernamebox" layoutX="105.0" layoutY="80.0" opacity="0.3" prefHeight="30.0" prefWidth="300.0" />
+                  <Label layoutX="5.0" prefHeight="30.0" prefWidth="100.0" text="Full Name" />
+                  <TextField fx:id="namebox" layoutX="105.0" opacity="0.3" prefHeight="30.0" prefWidth="300.0" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="loginButtonInSignUpPage" layoutX="230.0" layoutY="400.0" mnemonicParsing="false" onAction="#goToLoginPage" prefHeight="25.0" prefWidth="45.0" text="Login" />
+            <Label layoutX="100.0" layoutY="400.0" prefHeight="25.0" text="Already have an account?" />
+            <Button fx:id="signUp" layoutX="190.0" layoutY="280.0" mnemonicParsing="false" onAction="#signUpClicked" prefHeight="25.0" prefWidth="80.0" text="Sign Up" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

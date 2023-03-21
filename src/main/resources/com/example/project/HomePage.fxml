@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: aqua green;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project.HomePageController">
+   <children>
+      <HBox prefHeight="30.0" prefWidth="720.0" />
+      <AnchorPane layoutY="170.0" prefHeight="200.0" prefWidth="900.0">
+         <children>
+            <Rectangle fx:id="studentPort" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="88.0" layoutX="229.0" layoutY="88.0" onKeyPressed="#mouseClkStudentPort" smooth="false" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+            <Rectangle fx:id="teacherPort" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="88.0" layoutX="487.0" layoutY="14.0" onMouseClicked="#mouseClkTeacherPort" smooth="false" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+            <Rectangle fx:id="programmPort" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="88.0" layoutX="684.0" layoutY="103.0" onKeyPressed="#mouseCllkProgrammPort" smooth="false" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+            <Rectangle fx:id="newsFeedPort" arcHeight="5.0" arcWidth="5.0" fill="#3b4f61" height="88.0" layoutX="33.0" layoutY="34.0" onKeyPressed="#mouseClkNewsFeed" smooth="false" stroke="BLACK" strokeType="INSIDE" width="177.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
