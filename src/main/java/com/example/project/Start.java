@@ -16,6 +16,7 @@ public class Start extends Application {
        stage.show();
     }
 //djciuawf
+    //nidoie
     public static void main(String[] args) {
         launch(args);
     }
