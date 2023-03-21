@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/src/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/logo1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project/HomePageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project/Start.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/project/HomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/project/HomePage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
